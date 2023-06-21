@@ -11,7 +11,7 @@ public class SpringJenkinsDockerApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Welcome to SpringBoot Jenkins Docker Integration...";
+		return "Welcome to SpringBoot Jenkins Docker Integration...!!";
 	}
 	
 	public static void main(String[] args) {
